@@ -14,7 +14,7 @@ const CustomButton = ({title, containerStyles, textStyles, rightIcon, btnType, h
         <span className={`flex-1 ${textStyles}`}>
             {title}
         </span>
-        {rightIcon && (
+        {/* {rightIcon && (
           <div className="relative w-6 h-6">
             <Image
             src={rightIcon}
@@ -23,7 +23,7 @@ const CustomButton = ({title, containerStyles, textStyles, rightIcon, btnType, h
             className="object-contain"
             />
           </div>
-        )}
+        )} */}
     </button>
   )
 }
